@@ -15,7 +15,7 @@ Model
 - result variable
 
 
-- javascript funksjoner -
+javascript funksjoner
 -------------------------
 - function that converts from morsecode to letters
 - function that converts from letters to morsecode
@@ -25,7 +25,7 @@ Model
 
 
 
--     Tid til overs     -
+Tid til overs
 -------------------------
 Unit testing the functions.
 
@@ -33,13 +33,15 @@ Unit testing the functions.
 
 
 
--         Hvem skal gjøre hva          -
+ Hvem skal gjøre hva          
 ----------------------------------------
 Flemming 
 - skrive array/objekt 
 
 Sigve
-- sitte på ræva å se på
+- lage strukturen
+
 
 Rolf
-- 
+- Skrive view funskjonen
+
