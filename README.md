@@ -15,7 +15,7 @@ Model
 - result variable
 
 
-javascript funksjoner
+javascript functions
 -------------------------
 - function that converts from morsecode to letters
 - function that converts from letters to morsecode
