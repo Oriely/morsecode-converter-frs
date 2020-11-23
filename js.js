@@ -1,7 +1,7 @@
 
         //Model//
         let html = '';
-        let _app = document.getElementById('oplegget');
+        let _app = document.getElementById('opplegget');
         const bokstaver = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' ', 'æ', 'ø', 'å'];
         const morseKode = ['.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '....', '..', '.---', '-.-', '.-..', '--', '-.', '---', '.--.', '--.-', '.-.', '...', '-', '..-', '...-', '.--', '-..-',
             '-.--', '--..', ' ', '·−·−', '−−−·', '·−−·−']; //4 siste er space, æ ,ø og å
@@ -13,11 +13,11 @@
         function updateView() {
 
             html = `
-                                <label>Skriv inn det du vil oversette til morsekode</label>
-                                <input id="nyString" type="text">
-                                <button onclick="oversettOpplegget()">Oversett</button>
+                                <label>Skriv inn det du vil oversette til morsekode</label><br>
+                                <input id="nyString" type="text"><br>
+                                <button onclick="oversettOpplegget()">Oversett</button><br>
 
-                                <p id="nyKode">Her kommer morsekoden.</p>
+                                <p id="nyKode">Her kommer morsekoden.</p><br>
 
                                 `;
 
